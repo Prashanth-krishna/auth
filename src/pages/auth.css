@@ -1,0 +1,67 @@
+.formcontainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form input {
+  width: 80%;
+  height: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px solid rgb(0, 247, 255);
+}
+.form input:focus {
+  outline: none;
+}
+.form label {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.form .btn {
+  height: 40px;
+  width: 60%;
+  padding: 10px;
+  background-color: rgb(160, 25, 238);
+  color: white;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.form .btn:hover {
+  cursor: pointer;
+  color: rgb(160, 25, 238);
+  background-color: white;
+}
+.form .btn:focus {
+  outline: none;
+}
+.form .btn:active {
+  transform: scale(0.95);
+}
+.form a {
+  text-decoration: none;
+}
+.form .btn-signup {
+  height: 40px;
+  width: 140px;
+  padding: 10px;
+  background-color: rgb(160, 25, 238);
+  color: white;
+  margin-top: 10px;
+  text-decoration: none;
+  /* border-radius: 5px; */
+  outline: none;
+}
+.form .btn-signup:hover {
+  color: rgb(160, 25, 238);
+  background-color: white;
+  cursor: pointer;
+}

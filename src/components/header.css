@@ -1,0 +1,43 @@
+.header-container {
+  height: 50px;
+  width: 100%;
+  /* background-color: aqua; */
+  position: relative;
+}
+.header-container span {
+  /* background-color: cornflowerblue; */
+  color: rgb(160, 25, 238);
+  font-size: 32px;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+}
+.header-container span:hover {
+  color: white;
+}
+.header-container .btn-login {
+  /* background-color: cornflowerblue; */
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  background-color: rgb(160, 25, 238);
+}
+.header-container .btn-login:hover {
+  /* background-color: white; */
+  color: rgb(160, 25, 238);
+  background-color: white;
+}
+.header-container .btn-logout {
+  /* background-color: cornflowerblue; */
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  background-color: rgb(160, 25, 238);
+}
+.header-container .btn-logout:hover {
+  /* background-color: white; */
+  color: rgb(160, 25, 238);
+  background-color: white;
+}
