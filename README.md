@@ -1,1 +1,3 @@
 # auth
+
+Auth using Firebase.
